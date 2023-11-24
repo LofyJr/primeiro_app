@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">Meu Aplicativo</string>
-    <string name="hello_world">Olá Mundo!"</string>
+    <string name="portugues">Olá Mundo!"</string>
+    <string name="german">Hallo Welt!</string>
+    <string name="english">Hello World!</string>
+    <string name="spanish">Hola Mundo!</string>
+    <string-array name="language_keys">
+        <item>port</item>
+        <item>ger</item>
+        <item>spn</item>
+        <item>eng</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>Português</item>
+        <item>Alemão</item>
+        <item>Espanhol</item>
+        <item>Inglês</item>
+    </string-array>
 </resources>
+
+
+
