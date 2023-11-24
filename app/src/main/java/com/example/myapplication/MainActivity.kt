@@ -27,8 +27,6 @@ class MainActivity : AppCompatActivity() {
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>, view: View?, position: Int, id: Long) {
                 val selectedLanguageKey = languageKeys[position]
-
-                // Use as traduções correspondentes com base na seleção do Spinner
                 val greetingResId = when (selectedLanguageKey) {
                     "port" -> R.string.portugues
                     "ger" -> R.string.german
